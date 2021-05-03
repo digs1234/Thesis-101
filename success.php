@@ -1,9 +1,9 @@
 <?php
-  include "home/header.php"
+  include "header.php"
 ?>
 
   <?php
-    include "home/nav.php"
+    include "nav.php"
   ?>
   <!--Header-->
     <header class="header">
@@ -84,10 +84,10 @@
   </div>
 </header>
   <?php 
-  include "home/sidebar.php"
+  include "sidebar.php"
   ?>
         <!--sidebar-->
 
 <?php
-  include "home/footer.php"
+  include "footer.php"
 ?>
