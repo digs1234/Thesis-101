@@ -56,7 +56,7 @@
                   <h4 class="modal-title"><i class="far fa-eye"></i> Vission</h4>
                 </div>
                 <div class="modal-body">
-                  <p>The project was created to become a user friendly. It is composed of basics icons and features that are mostly needed in an online platform.</p>
+                  <p>uiehfuiebgfuoghpfowhepfpehjpohewfwei The project was created to become a user friendly. It is composed of basics icons and features that are mostly needed in an online platform.</p>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
