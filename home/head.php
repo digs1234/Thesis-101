@@ -1,4 +1,4 @@
-<header class="header">
+<!-- <header class="header">
   <div class="container-fluid mt-3">
     <div class="container-fluid">
       <div class="row">
@@ -15,9 +15,9 @@
                       <a class="dropdown-item" data-toggle="modal" data-target="#modal1"><i class="fas fa-user"></i>&nbsp;&nbsp;Student</a>
                       <a class="dropdown-item"  data-toggle="modal" data-target="#modal2"><i class="fas fa-user-tie"></i>&nbsp;&nbsp;Teacher</a>
                     </div>
-              </div>
+              </div> -->
               <!--Modal code -->
-                <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1-label">
+                <!-- <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1-label">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
@@ -70,4 +70,4 @@
       </div>
     </div>
   </div>
-</header>
+</header> -->

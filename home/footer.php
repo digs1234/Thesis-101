@@ -1,8 +1,14 @@
 </body>
 <footer id="footer">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
+<nav class="navbar navbar-expand-sm bg-dark-custom_home">
     <div class="container-fluid justify-content-center text-light">
+        <br />
         &#169; 2020-2021 |BSMCS-4A|
+        <br />
+        <br />
+        add social icons here (fb, twt, insta etc)
+        <br />
+        <br />
     </div>
  </nav>
 </footer>

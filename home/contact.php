@@ -1,13 +1,13 @@
 <?php
-  include "header.php"
+  include "home/header.php"
 ?>
 
   <?php
-    include "nav.php"
+    include "home/nav.php"
   ?>
   <!--Header-->
   <?php 
-    include "head.php"
+    include "home/head.php"
   ?>
 <!--sidebar-->
 <div class="sidebar">
@@ -23,7 +23,7 @@
                         echo $new;
                         ?></i>
           </div>
-          <ul class="col1">
+         <ul class="col1">
             <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
             <li><a href="contact.php"><i class="fas fa-phone-square"></i> Contact</a></li>
             <li><a href="sitemap.php"><i class="fas fa-sitemap"></i> Site Map</a></li>
@@ -80,12 +80,28 @@
             </div>
           </div>
         <div class="col-lg-6" id="col2">
-          <div class="alert alert-info" id="pop" style="margin-top: -50px; width: 100%;">
+           <div class="alert alert-info" id="pop" style="margin-top: -50px; width: 100%;">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <strong><i class="fas fa-map-marked-alt"></i>&nbsp;School Map!</strong>&nbsp;
+            <strong><i class="fas fa-phone-square"></i>&nbsp;Contacts!</strong>&nbsp;
           </div>
-            <div id="map-container-google-1" class="z-depth-1-half map-container">
-              <iframe title="Bulsu Map" src="https://www.google.com/maps/d/embed?mid=1rZKZKQ6krx30kAksNyh6VCDHlRPY989u" width="530" height="250" frameborder="0"></iframe>
+            <div>
+              <ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="facebook.com"><i class="fab fa-facebook-square"></i> Facebook: batman16@facebook.com</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gmail.com"><i class="far fa-envelope"></i> Gmail: dignum16@gmail.com</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Instagram.com"><i class="fab fa-instagram"></i> Instagram: N/A</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="twitter.com"><i class="fab fa-twitter-square"></i> Twitter: N/A</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-phone-square"></i> Phone No: 09503746690</a>
+                </li>
+              </ul>
             </div>
         </div>
         <div class="col-lg-3" id="col3">
@@ -161,5 +177,5 @@
 </div>
         <!--sidebar-->
   <?php
-  include "footer.php"
+  include "home/footer.php"
 ?>

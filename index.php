@@ -1,18 +1,25 @@
 <?php
-  include "header.php"
+  include "home/header.php"
 ?>
 
   <?php
-    include "nav.php"
+    include "home/nav.php"
   ?>
   <!--Header-->
   <?php 
-    include "head.php"
+    include "home/head.php"
   ?>
   <!--header-->
-<?php 
-  include "sidebar.php"
-?>
+  <!-- new components -->
+  <?php 
+    include "home/body_one.php"
+  ?>
+  <!-- new components -->
 <?php
-  include "footer.php"
+  include "home/footer.php"
 ?>
+
+
+
+<!-- notes -->
+<!-- I segregated all of the files above, it is now on the home folder -->
