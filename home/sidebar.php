@@ -15,11 +15,10 @@
           <ul class="col1">
             <li><a href="index.php"><i class="fas fa-home"></i>&nbsp;&nbsp;Home</a></li>
             <li><a href="contact.php"><i class="fas fa-phone-square"></i>&nbsp;&nbsp;Contact</a></li>
-            <li><a href="sitemap.php"><i class="fas fa-sitemap"></i>&nbsp;&nbsp;Site Map</a></li>
-            <li><p class="text-muted" style="margin: 10px;">&nbsp;&nbsp;About Us</p></a></li>
-            <li><a href="#" data-toggle="modal" data-target="#modal5"><i class="fab fa-medium"></i>&nbsp;&nbsp;Mission</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#modal6"><i class="far fa-eye"></i>&nbsp;&nbsp;Vission</a></li>
-            <li><a href="#" data-toggle="modal" data-target="#modal7"><i class="fas fa-bullseye"></i>&nbsp;&nbsp;Goal</a></li>
+            <li><a href="sitemap.php"><i class="fas fa-sitemap"></i>&nbsp;&nbsp;Site Map</a></li><hr>
+            <li><a href="#" data-toggle="modal" data-target="#modal5"><i class="far fa-eye"></i>&nbsp;&nbsp;Vission</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#modal6"><i class="fab fa-medium"></i>&nbsp;&nbsp;Mission</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#modal7"><i class="fas fa-bullseye"></i>&nbsp;&nbsp;General Objectives</a></li>
           </ul>
         </div>
             <!--Modal code -->
@@ -27,10 +26,10 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title"><i class="fab fa-medium"></i> Mission</h4>
+                  <h4 class="modal-title"><i class="far fa-eye"></i>&nbsp;&nbsp;</i>Vission</h4>
                 </div>
                 <div class="modal-body">
-                  <p>The main objective of creating/developing this project is to give help for teachers and students whose struggling in the new mode of learning.</p>
+                  <p>The <strong>College of Science</strong> aspires to be recognized as a center of excellence for learning where human talents and skills are honed to their fullest potentials in an environment that promotes highest academic standards and cultural values.</p>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" id="close">Close</button>
@@ -42,10 +41,10 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title"><i class="far fa-eye"></i> Vission</h4>
+                  <h4 class="modal-title"><i class="fab fa-medium"></i>&nbsp;&nbsp;Mission</h4>
                 </div>
                 <div class="modal-body">
-                  <p>The project was created to become a user friendly. It is composed of basics icons and features that are mostly needed in an online platform.</p>
+                  <p>The <strong>College of Science</strong> will devote its human and material resources to improve knowledge, develop skills, cultivate values, conduct research studies, and facilitate extension promotive of the goals of nation-building and lofty human aspirations in the fields of sciences and mathematics.</p>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" id="close">Close</button>
@@ -57,10 +56,16 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title"><i class="fas fa-bullseye"></i> Goal</h4>
+                  <h4 class="modal-title"><i class="fas fa-bullseye"></i>&nbsp;&nbsp;General Objectives</h4>
                 </div>
                 <div class="modal-body">
-                  <p>The main Goal of the team  is to develop a user friendly platform that will give help to those teachers and students whose struggling with the new mode of learning. Next to it is for thesis compliance of the team in order to graduate.</p>
+                  <ul>
+                    <li><p>Promote the holistic development of the students by providing them with opportunities to grow in wisdom and competence in their chosen vocation.</p></li><br>
+
+                    <li><p>Equip the students with the potential to transform knowledge and acquired skills into marketable capabilities that would effectively facilitate their successful integration to the work force and become productive, creative, and self-actualized individuals.</p></li><br>
+
+                    <li><p>Effectively impart the requisites to the development of proper perspectives, outlook, and dispositions that would contribute towards a meaningful and fulfilling existence as a member of humane society.</p></li>
+                  </ul>
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" id="close">Close</button>
@@ -129,6 +134,12 @@
                       <div class="register">
                         <h1>Student Registration</h1>
                       <form method="post" action="student_register.php" enctype="multipart/form-data">
+                        <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="fsname" placeholder="First Name" required>
+                        <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="lsname" placeholder="Last Name" required>
+                        <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="msname" placeholder="Middle Name" required>
                         <label for="username"><i class="fas fa-user"></i></label>
                           <input type="text" name="sname" placeholder="Username" required>
                         <label for="password"><i class="fas fa-lock"></i></label>
@@ -161,6 +172,12 @@
                     <div class="register">
                       <h1>Teacher Registration</h1>
                     <form method="post" action="teacher_register.php" enctype="multipart/form-data">
+                       <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="faname" placeholder="First Name" required>
+                        <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="laname" placeholder="Last Name" required>
+                        <label for="name"><i class="fas fa-user"></i></label>
+                          <input type="text" name="maname" placeholder="Middle Name" required>
                       <label for="username"><i class="fas fa-user"></i></label>
                         <input type="text" name="aname" placeholder="Username" required>
                       <label for="password"><i class="fas fa-lock"></i></label>
