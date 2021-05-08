@@ -1,5 +1,5 @@
 <?php
-    include('header.php');
+    include('home/header.php');
     include('actions/connection.php');
 ?>
   <?php

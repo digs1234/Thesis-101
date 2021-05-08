@@ -14,6 +14,7 @@
   <?php 
     include "home/body_one.php"
   ?>
+
   <!-- new components -->
 <?php
   include "home/footer.php"
