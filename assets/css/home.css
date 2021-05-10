@@ -55,6 +55,7 @@
 /* text */
 .link_formatter {
     text-decoration: none;
+    cursor: pointer;
 }
 .roboto_12_home {
     /* font-family: Roboto; */

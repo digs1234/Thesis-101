@@ -1,7 +1,7 @@
 <?php
 include"actions/connection.php";
 $get_id = $_GET['id']; 
-include('header.php');
+include('home/header.php');
 if (!isset($_SESSION["aid"]))
     {
         echo"<script>window.open('index.php?mes=Access Denied..','_self');</script>";
